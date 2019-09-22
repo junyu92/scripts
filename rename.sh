@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage() { echo "Usage: $0 [-d <string>] [-t <string>]" 1>&2; exit 1; }
+usage() { echo "Usage: $0 [-d <dictionary>] [-t <new_name>]" 1>&2; exit 1; }
 
 while getopts ":d:t:" o; do
     case "${o}" in
